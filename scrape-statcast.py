@@ -5,11 +5,11 @@ import pandas as pd
 from datetime import datetime
 
 #datetime.today()
-# dtlst22 = pd.date_range(start = "2022-04-07", end = datetime.today()).date.tolist()
-# dtlst21 = pd.date_range(start = "2021-04-01", end = "2021-10-03").date.tolist()
-# dtlst20 = pd.date_range(start = "2020-07-23", end = "2020-09-27").date.tolist()
+dtlst22 = pd.date_range(start = "2022-04-07", end = datetime.today()).date.tolist()
+dtlst21 = pd.date_range(start = "2021-04-01", end = "2021-10-03").date.tolist()
+dtlst20 = pd.date_range(start = "2020-07-23", end = "2020-09-27").date.tolist()
 dtlst19 = pd.date_range(start = "2019-03-20", end = "2019-09-29").date.tolist()
-# dtlst18 = pd.date_range(start = "2018-03-29", end = "2018-10-01").date.tolist()
+dtlst18 = pd.date_range(start = "2018-03-29", end = "2018-10-01").date.tolist()
 
 error_lst = []
 
