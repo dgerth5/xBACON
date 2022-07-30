@@ -11,8 +11,6 @@ dtlst20 = pd.date_range(start = "2020-07-23", end = "2020-09-27").date.tolist()
 dtlst19 = pd.date_range(start = "2019-03-20", end = "2019-09-29").date.tolist()
 dtlst18 = pd.date_range(start = "2018-03-29", end = "2018-10-01").date.tolist()
 
-error_lst = []
-
 def main(dt):
     data = statcast(start_dt=dt, end_dt=dt)
     df = pd.DataFrame(data)
